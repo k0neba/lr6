@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danil\\Desktop\\lr6vrode\\lr6vrode\\lr6vrode.csproj": {}
+    "D:\\Пользователь\\Desktop\\lr6-main\\lr6vrode\\lr6vrode\\lr6vrode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danil\\Desktop\\lr6vrode\\lr6vrode\\lr6vrode.csproj": {
+    "D:\\Пользователь\\Desktop\\lr6-main\\lr6vrode\\lr6vrode\\lr6vrode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danil\\Desktop\\lr6vrode\\lr6vrode\\lr6vrode.csproj",
+        "projectUniqueName": "D:\\Пользователь\\Desktop\\lr6-main\\lr6vrode\\lr6vrode\\lr6vrode.csproj",
         "projectName": "lr6vrode",
-        "projectPath": "C:\\Users\\Danil\\Desktop\\lr6vrode\\lr6vrode\\lr6vrode.csproj",
-        "packagesPath": "C:\\Users\\Danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danil\\Desktop\\lr6vrode\\lr6vrode\\obj\\",
+        "projectPath": "D:\\Пользователь\\Desktop\\lr6-main\\lr6vrode\\lr6vrode\\lr6vrode.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Пользователь\\Desktop\\lr6-main\\lr6vrode\\lr6vrode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Danil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

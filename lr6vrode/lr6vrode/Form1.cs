@@ -1,3 +1,5 @@
+//середнье геометричне - захист
+
 namespace lr6vrode
 {
     public partial class Form1 : Form
@@ -29,6 +31,7 @@ namespace lr6vrode
             x2 = Convert.ToDouble(textBox2.Text);
             textBox3.Text = Convert.ToString(Math.Pow(x1, 2) + (x2 * 3));
             textBox4.Text = Convert.ToString((x1 + x2) / 2);
+            textBox5.Text = Convert.ToString(Math.Sqrt(x1 * x2));
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -42,6 +45,7 @@ namespace lr6vrode
             textBox2.Text = "";
             textBox3.Text = "";
             textBox4.Text = "";
+            textBox5.Text = "";
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -51,7 +55,12 @@ namespace lr6vrode
 
         private void button_exit_Click(object sender, EventArgs e)
         {
-             Close();
+            Close();
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
